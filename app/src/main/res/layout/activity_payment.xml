@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+    <include layout="@layout/payment_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_2"
+        android:layout_gravity="center"
+        android:padding="22dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:tint="#d22532"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_payment"/>
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Add a new card"
+            android:layout_gravity="center"
+            android:textSize="14.4sp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#9b9b9b"
+            android:textColor="#000000"
+            android:background="#00000000"/>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5.7dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BANK ACCOUNTS"
+        android:textSize="12sp"
+        android:textColor="#c2c4ca"
+        android:paddingTop="30.3dp"
+        android:paddingBottom="7.3dp"
+        android:layout_marginLeft="23dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="21.3dp"
+        android:background="@drawable/rectangle_2"
+        android:layout_marginTop="7.8dp">
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Franklin Campbell - ***7809"
+            android:layout_marginLeft="9dp"
+            android:layout_gravity="center"
+            android:textSize="14.4sp"
+            android:textColorHint="#9b9b9b"
+            android:textColor="#000000"
+            android:background="#00000000"/>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5.7dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREDIT CARDS"
+        android:textSize="12sp"
+        android:textColor="#c2c4ca"
+        android:paddingTop="28dp"
+        android:paddingBottom="7dp"
+        android:layout_marginLeft="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20.3dp"
+        android:background="@drawable/rectangle_2"
+        android:layout_marginTop="7.8dp">
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="**** **** **** 2759"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#9b9b9b"
+            android:textColor="#000000"
+            android:background="@drawable/rectangle_2"/>
+
+        <ImageView
+            android:layout_width="50.7dp"
+            android:layout_height="15.3dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5.7dp"
+            android:src="@drawable/visa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20.3dp"
+        android:background="@drawable/rectangle_2">
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="franklin_camp@gmail.com"
+            android:layout_marginLeft="9dp"
+            android:layout_gravity="center"
+            android:textSize="14.4sp"
+            android:textColorHint="#9b9b9b"
+            android:textColor="#000000"
+            android:background="#00000000"/>
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:src="@drawable/paypal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20.3dp"
+        android:background="@drawable/rectangle_2">
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="**** **** **** 1351"
+            android:inputType="number"
+            android:textSize="14.4sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#9b9b9b"
+            android:textColor="#000000"
+            android:background="@drawable/rectangle_2"/>
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="8.7dp"
+            android:src="@drawable/mastercard"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
